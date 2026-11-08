@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* -------------------------------------------------------------
    Permanently hide scrollbars across the entire application
    (Chrome, Edge, Safari, Firefox, iOS, Android, iframe preview)
